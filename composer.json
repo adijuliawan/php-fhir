@@ -1,0 +1,19 @@
+{
+    "name": "adijuliawan/php-fhir",
+    "description": "PHP classes from the HL7 FHIR Specification",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adi Juliawan",
+            "email": "adijuliawanpawana@unud.ac.id"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "RistekUSDI\\FHIR\\": "src/"
+        }
+    }
+}
